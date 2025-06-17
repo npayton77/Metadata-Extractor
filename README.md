@@ -2,11 +2,11 @@
 
 A powerful Android library for extracting ID3 metadata from Apple's proprietary HLS streams with EMSG boxes. This library solves the challenge of parsing metadata from Apple's streaming format that ExoPlayer doesn't natively support.
 
-## 🎯 **Problem Solved**
+## **Problem Solved**
 
 Apple's HLS streams embed ID3 metadata in EMSG (Event Message) boxes within fMP4 segments. Standard Android media players like ExoPlayer can't parse this metadata format, leaving developers unable to access track information, album artwork, and other metadata from Apple-sourced streams.
 
-## ⚡ **Key Features**
+## **Key Features**
 
 - **Real-time ID3 extraction** from Apple HLS EMSG boxes
 - **Corrupted data handling** - Cleans malformed WXXX frames for artwork URLs
@@ -15,7 +15,7 @@ Apple's HLS streams embed ID3 metadata in EMSG (Event Message) boxes within fMP4
 - **Thread-safe operation** - Concurrent metadata processing
 - **Comprehensive logging** - Debug-friendly with detailed extraction logs
 
-## 🔧 **Supported Metadata**
+## **Supported Metadata**
 
 | ID3 Frame | Description | Example |
 |-----------|-------------|---------|
@@ -26,7 +26,7 @@ Apple's HLS streams embed ID3 metadata in EMSG (Event Message) boxes within fMP4
 | `WXXX` | Artwork URL | "https://example.com/artwork.jpg" |
 | `APIC` | Embedded Images | Binary image data |
 
-## 🚀 **Quick Start**
+## **Quick Start**
 
 ### 1. Add to your project
 
@@ -147,7 +147,7 @@ Example debug output:
 - **Audio Analytics** - Track listening data with proper metadata
 - **Broadcasting Software** - Professional radio automation systems
 
-## 🤝 **Contributing**
+## **Contributing**
 
 This library was developed to solve real-world streaming metadata challenges. Contributions welcome!
 
